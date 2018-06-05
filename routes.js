@@ -55,7 +55,7 @@ router.post('/dialogflowAPI', function (req, res) {
 			
 			} else if(body.result && body.result.action && body.result.action =="riskClass"){
 				
-				let riskClass = body.result.parameters && body.result.parameters.RiskClass ? body.result.parameters.RiskClass : null;
+				let riskClass = body.result.parameters && body.result.parameters.RiskClass ? body.result.parameters.RiskClass : "Candy Manufacturing Business";
 				console.log('YEAH', riskClass, body.result.parameters);
 				if(riskClass){
 
