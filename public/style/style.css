@@ -685,3 +685,11 @@ img.center {
  .list-group-item-text-bot {
   margin-bottom: 30px;
  }
+
+ .btn-icc {
+  border:none;
+  box-shadow:none;
+  margin-right:110px !important;
+  margin-bottom:110px !important;
+  background-color:rgba(51, 102, 153, 1) !important;
+ }
